@@ -1,0 +1,25 @@
+1. 유기동물보호소, 입양 앱(유기동물보호소명, 주소, 연락처, 위도, 경도) : 유기동물보호소 앱을 제작함으로써 버려진 동물들에 대해 봉사나 입양을 목적으로 하는 사람들에게 보호소들의 위치, 연락처, 주소를 제공하여 편의성을 제공
+
+활용사례 : 나를 찾아줘, 도그웹, 베이비펫, 입양/분실동물 찾기 앱 개발
+
+공공API : 유기동물 보호시설 현황(https://data.gg.go.kr/portal/data/service/selectServicePage.do?page=1&sortColumn=&sortDirection=&infId=IFCTHC90596EV59Q861V1622341&infSeq=3&searchWord=%EC%9C%A0%EA%B8%B0%EB%8F%99%EB%AC%BC+%EB%B3%B4%ED%98%B8%EC%8B%9C%EC%84%A4+%ED%98%84%ED%99%A9), 동물보호관리시스템 유기동물 조회 서비스(https://www.data.go.kr/data/15001096/openapi.do)
+
+실행(대충 요약) : 타이틀-->버튼 2개(보호시설 현황 보기, 유기동물 조회하기)-->정보 조회(검색 버튼, 텍스트 입력창, 정보 목록별로 나열)
+
+2. 내 주변 동물의료시설 찾기 앱 : 갑자기 내가 키우는 반려동물이 아플때 급히 주변에서 병원을 찾아야 할때 병원을 찾아 헤멜 필요없이 앱을 통해 신속히 정보를 알 수 있다.
+
+활용사례 : 마이펫플러스 - 강아지 고양이 동물병원 가격비교 앱, 	
+좋은 동물병원 검색/리뷰 서비스, 	
+그랫 펫닥터 - 동물병원 수의사 추천
+
+공공API : 동물병원 현황(https://data.gg.go.kr/portal/data/service/selectServicePage.do?page=1&rows=10&sortColumn=&sortDirection=&infId=Y5M0CVS8XM2C821G09A813809578&infSeq=1&order=&loc=&searchWord=%EB%8F%99%EB%AC%BC%EB%B3%91%EC%9B%90+%ED%98%84%ED%99%A9), 동물용 의료용구 판매업체(https://data.gg.go.kr/portal/data/service/selectServicePage.do?page=1&rows=10&sortColumn=&sortDirection=&infId=C0MP2691RNWY56YF46YM552088&infSeq=3&order=&loc=&searchWord=%EB%8F%99%EB%AC%BC%EC%9A%A9+%EC%9D%98%EB%A3%8C%EC%9A%A9%EA%B5%AC+%ED%8C%90%EB%A7%A4%EC%97%85%EC%B2%B4+%ED%98%84%ED%99%A9), 동물약국 현황(https://data.gg.go.kr/portal/data/service/selectServicePage.do?page=1&rows=10&sortColumn=&sortDirection=&infId=1664G9P3897924K608Z3588543&infSeq=3&order=&loc=&searchWord=%EB%8F%99%EB%AC%BC%EC%95%BD%EA%B5%AD+%ED%98%84%ED%99%A9)
+
+실행(대충 요약) : 타이틀-->버튼 3개(동물병원 찾기, 동물용 의료용구점 찾기, 동물약국 찾기)-->정보 조회(검색 버튼, 텍스트 입력창, 정보 목록별로 나열)
+
+3. 군PX 인기상품 랭킹 앱 : 한 참 꽃다울 나이에 '국방의 의무'로 인해 청춘을 바치는 군인들에게 PX 인기상품을 앱으로 확인할 수 있게 해줌으로써 자신의 부대 PX에 없는 상품 중 원하는 상품을 건의도 하며 군 내 사기를 높일 수 있을 것으로 생각.
+
+활용사례 : 구글 플레이 스토어 검색 결과 아직 PX 관련 앱은 없어 개발하면 최초로 내놓는거일수도 있음.
+
+공공API : 국방부 PX 인기상품 정보(https://opendata.mnd.go.kr/openinf/sheetview2.jsp)
+
+실행(대충 요약) : 타이틀-->버튼 1개(랭킹 확인하기)-->정보 조회(검색 버튼, 텍스트 입력창, 정보 목록별로 나열)
